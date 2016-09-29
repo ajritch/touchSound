@@ -1,0 +1,6 @@
+framework module Pods_touchSoundTests {
+  umbrella header "Pods-touchSoundTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

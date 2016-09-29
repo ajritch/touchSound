@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059CCA0B444FA0500AAAB0E5 /* Pods_touchSoundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F0A3714ED7B522FB6EC922 /* Pods_touchSoundUITests.framework */; };
+		8986259641E2E2C7C8D565B8 /* Pods_touchSound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B21D36F93907C89714B650 /* Pods_touchSound.framework */; };
+		D10FD1641D9C15E600D15087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1631D9C15E600D15087 /* AppDelegate.swift */; };
+		D10FD1661D9C15E600D15087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1651D9C15E600D15087 /* ViewController.swift */; };
+		D10FD1691D9C15E600D15087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10FD1671D9C15E600D15087 /* Main.storyboard */; };
+		D10FD16B1D9C15E600D15087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10FD16A1D9C15E600D15087 /* Assets.xcassets */; };
+		D10FD16E1D9C15E600D15087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10FD16C1D9C15E600D15087 /* LaunchScreen.storyboard */; };
+		D10FD1791D9C15E700D15087 /* touchSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1781D9C15E700D15087 /* touchSoundTests.swift */; };
+		D10FD1841D9C15E700D15087 /* touchSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1831D9C15E700D15087 /* touchSoundUITests.swift */; };
+		D10FD1951D9C184800D15087 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10FD1941D9C184800D15087 /* AVFoundation.framework */; };
+		D119CA7D1D9CB3A10077C44D /* song2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA7C1D9CB3A10077C44D /* song2.wav */; };
+		D119CA7F1D9CB5CF0077C44D /* song3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA7E1D9CB5CF0077C44D /* song3.wav */; };
+		D119CA831D9CB89D0077C44D /* song5.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA821D9CB89D0077C44D /* song5.wav */; };
+		D119CA851D9CB8A20077C44D /* song1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA841D9CB8A20077C44D /* song1.wav */; };
+		D1C2E5211D9D66AE00A0AA37 /* RickRoll.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */; };
+		D1C2E5231D9D66C700A0AA37 /* song4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5221D9D66C700A0AA37 /* song4.wav */; };
+		D1C2E5251D9D692E00A0AA37 /* laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5241D9D692E00A0AA37 /* laugh.wav */; };
+		D1C2E5271D9D69D100A0AA37 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5261D9D69D100A0AA37 /* explosion.wav */; };
+		D1C2E5291D9D6A8500A0AA37 /* game.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5281D9D6A8500A0AA37 /* game.wav */; };
+		D1C2E52B1D9D6BA600A0AA37 /* tada.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E52A1D9D6BA600A0AA37 /* tada.wav */; };
+		F860A5B3189F62F8CCDCDE90 /* Pods_touchSoundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D61F2824B7FDFDF44812DD1 /* Pods_touchSoundTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10FD1751D9C15E700D15087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10FD1581D9C15E600D15087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10FD15F1D9C15E600D15087;
+			remoteInfo = touchSound;
+		};
+		D10FD1801D9C15E700D15087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10FD1581D9C15E600D15087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10FD15F1D9C15E600D15087;
+			remoteInfo = touchSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B7499AC8834187EDE0F6A98 /* Pods-touchSoundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSoundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-touchSoundTests/Pods-touchSoundTests.release.xcconfig"; sourceTree = "<group>"; };
+		325AA0BB0946652D5B103F31 /* Pods-touchSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSound.release.xcconfig"; path = "Pods/Target Support Files/Pods-touchSound/Pods-touchSound.release.xcconfig"; sourceTree = "<group>"; };
+		3D61F2824B7FDFDF44812DD1 /* Pods_touchSoundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_touchSoundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A498FAA0DA95F92C2F1011F /* Pods-touchSoundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSoundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-touchSoundUITests/Pods-touchSoundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AD9ED335CC695C79CB3FBB8 /* Pods-touchSoundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSoundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-touchSoundUITests/Pods-touchSoundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA63E8EAA21DD9A2DA2F332 /* Pods-touchSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-touchSound/Pods-touchSound.debug.xcconfig"; sourceTree = "<group>"; };
+		80AE92EE8C382368C9A1C9CC /* Pods-touchSoundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touchSoundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-touchSoundTests/Pods-touchSoundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98B21D36F93907C89714B650 /* Pods_touchSound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_touchSound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F0A3714ED7B522FB6EC922 /* Pods_touchSoundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_touchSoundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FD1601D9C15E600D15087 /* touchSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FD1631D9C15E600D15087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D10FD1651D9C15E600D15087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D10FD1681D9C15E600D15087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10FD16A1D9C15E600D15087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10FD16D1D9C15E600D15087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10FD16F1D9C15E600D15087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10FD1741D9C15E700D15087 /* touchSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FD1781D9C15E700D15087 /* touchSoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchSoundTests.swift; sourceTree = "<group>"; };
+		D10FD17A1D9C15E700D15087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10FD17F1D9C15E700D15087 /* touchSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FD1831D9C15E700D15087 /* touchSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchSoundUITests.swift; sourceTree = "<group>"; };
+		D10FD1851D9C15E700D15087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10FD1941D9C184800D15087 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D119CA7C1D9CB3A10077C44D /* song2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song2.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song2.wav"; sourceTree = "<group>"; };
+		D119CA7E1D9CB5CF0077C44D /* song3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song3.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song3.wav"; sourceTree = "<group>"; };
+		D119CA821D9CB89D0077C44D /* song5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song5.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song5.wav"; sourceTree = "<group>"; };
+		D119CA841D9CB8A20077C44D /* song1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song1.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song1.wav"; sourceTree = "<group>"; };
+		D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = RickRoll.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Rick Astley/Greatest Hits/RickRoll.wav"; sourceTree = "<group>"; };
+		D1C2E5221D9D66C700A0AA37 /* song4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song4.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song4.wav"; sourceTree = "<group>"; };
+		D1C2E5241D9D692E00A0AA37 /* laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laugh.wav; path = ../../../../../Downloads/laugh.wav; sourceTree = "<group>"; };
+		D1C2E5261D9D69D100A0AA37 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/explosion.wav"; sourceTree = "<group>"; };
+		D1C2E5281D9D6A8500A0AA37 /* game.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = game.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Bas Lamerichs - lu6np9@kpnmail.nl/-/game.wav"; sourceTree = "<group>"; };
+		D1C2E52A1D9D6BA600A0AA37 /* tada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tada.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Nathan Johnson/Nathan Johnson's Album/tada.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10FD15D1D9C15E600D15087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FD1951D9C184800D15087 /* AVFoundation.framework in Frameworks */,
+				8986259641E2E2C7C8D565B8 /* Pods_touchSound.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD1711D9C15E700D15087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F860A5B3189F62F8CCDCDE90 /* Pods_touchSoundTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD17C1D9C15E700D15087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059CCA0B444FA0500AAAB0E5 /* Pods_touchSoundUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0E5C2CFC7D0122863ABEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98B21D36F93907C89714B650 /* Pods_touchSound.framework */,
+				3D61F2824B7FDFDF44812DD1 /* Pods_touchSoundTests.framework */,
+				C8F0A3714ED7B522FB6EC922 /* Pods_touchSoundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63988968617F07ED9C9AB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BA63E8EAA21DD9A2DA2F332 /* Pods-touchSound.debug.xcconfig */,
+				325AA0BB0946652D5B103F31 /* Pods-touchSound.release.xcconfig */,
+				80AE92EE8C382368C9A1C9CC /* Pods-touchSoundTests.debug.xcconfig */,
+				2B7499AC8834187EDE0F6A98 /* Pods-touchSoundTests.release.xcconfig */,
+				5AD9ED335CC695C79CB3FBB8 /* Pods-touchSoundUITests.debug.xcconfig */,
+				4A498FAA0DA95F92C2F1011F /* Pods-touchSoundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D10FD1571D9C15E600D15087 = {
+			isa = PBXGroup;
+			children = (
+				D10FD1941D9C184800D15087 /* AVFoundation.framework */,
+				D10FD1621D9C15E600D15087 /* touchSound */,
+				D10FD1771D9C15E700D15087 /* touchSoundTests */,
+				D10FD1821D9C15E700D15087 /* touchSoundUITests */,
+				D10FD1611D9C15E600D15087 /* Products */,
+				C63988968617F07ED9C9AB8E /* Pods */,
+				BB0E5C2CFC7D0122863ABEC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D10FD1611D9C15E600D15087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10FD1601D9C15E600D15087 /* touchSound.app */,
+				D10FD1741D9C15E700D15087 /* touchSoundTests.xctest */,
+				D10FD17F1D9C15E700D15087 /* touchSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10FD1621D9C15E600D15087 /* touchSound */ = {
+			isa = PBXGroup;
+			children = (
+				D10FD1911D9C178700D15087 /* Audio */,
+				D10FD1631D9C15E600D15087 /* AppDelegate.swift */,
+				D10FD1651D9C15E600D15087 /* ViewController.swift */,
+				D10FD1671D9C15E600D15087 /* Main.storyboard */,
+				D10FD16A1D9C15E600D15087 /* Assets.xcassets */,
+				D10FD16C1D9C15E600D15087 /* LaunchScreen.storyboard */,
+				D10FD16F1D9C15E600D15087 /* Info.plist */,
+			);
+			path = touchSound;
+			sourceTree = "<group>";
+		};
+		D10FD1771D9C15E700D15087 /* touchSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				D10FD1781D9C15E700D15087 /* touchSoundTests.swift */,
+				D10FD17A1D9C15E700D15087 /* Info.plist */,
+			);
+			path = touchSoundTests;
+			sourceTree = "<group>";
+		};
+		D10FD1821D9C15E700D15087 /* touchSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D10FD1831D9C15E700D15087 /* touchSoundUITests.swift */,
+				D10FD1851D9C15E700D15087 /* Info.plist */,
+			);
+			path = touchSoundUITests;
+			sourceTree = "<group>";
+		};
+		D10FD1911D9C178700D15087 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D119CA7C1D9CB3A10077C44D /* song2.wav */,
+				D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */,
+				D1C2E5241D9D692E00A0AA37 /* laugh.wav */,
+				D1C2E52A1D9D6BA600A0AA37 /* tada.wav */,
+				D1C2E5261D9D69D100A0AA37 /* explosion.wav */,
+				D1C2E5281D9D6A8500A0AA37 /* game.wav */,
+				D119CA841D9CB8A20077C44D /* song1.wav */,
+				D1C2E5221D9D66C700A0AA37 /* song4.wav */,
+				D119CA821D9CB89D0077C44D /* song5.wav */,
+				D119CA7E1D9CB5CF0077C44D /* song3.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10FD15F1D9C15E600D15087 /* touchSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FD1881D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSound" */;
+			buildPhases = (
+				5C4FC060C115039EC054F8D3 /* [CP] Check Pods Manifest.lock */,
+				D10FD15C1D9C15E600D15087 /* Sources */,
+				D10FD15D1D9C15E600D15087 /* Frameworks */,
+				D10FD15E1D9C15E600D15087 /* Resources */,
+				5966CB2DF3FE4D349DB50505 /* [CP] Embed Pods Frameworks */,
+				6167AEB75532E3B56CD79368 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchSound;
+			productName = touchSound;
+			productReference = D10FD1601D9C15E600D15087 /* touchSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10FD1731D9C15E700D15087 /* touchSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FD18B1D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSoundTests" */;
+			buildPhases = (
+				3A6E44547BDE58545235974D /* [CP] Check Pods Manifest.lock */,
+				D10FD1701D9C15E700D15087 /* Sources */,
+				D10FD1711D9C15E700D15087 /* Frameworks */,
+				D10FD1721D9C15E700D15087 /* Resources */,
+				5FB7622D5422ADBD4CF00F3D /* [CP] Embed Pods Frameworks */,
+				C882CA3FC1DB144E82199C0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10FD1761D9C15E700D15087 /* PBXTargetDependency */,
+			);
+			name = touchSoundTests;
+			productName = touchSoundTests;
+			productReference = D10FD1741D9C15E700D15087 /* touchSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D10FD17E1D9C15E700D15087 /* touchSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FD18E1D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSoundUITests" */;
+			buildPhases = (
+				CD50374DFD6661D412E78A70 /* [CP] Check Pods Manifest.lock */,
+				D10FD17B1D9C15E700D15087 /* Sources */,
+				D10FD17C1D9C15E700D15087 /* Frameworks */,
+				D10FD17D1D9C15E700D15087 /* Resources */,
+				C07D9D435ACBECC347175E16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10FD1811D9C15E700D15087 /* PBXTargetDependency */,
+			);
+			name = touchSoundUITests;
+			productName = touchSoundUITests;
+			productReference = D10FD17F1D9C15E700D15087 /* touchSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10FD1581D9C15E600D15087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrea Ritch";
+				TargetAttributes = {
+					D10FD15F1D9C15E600D15087 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 324K7JL2HS;
+					};
+					D10FD1731D9C15E700D15087 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 324K7JL2HS;
+						TestTargetID = D10FD15F1D9C15E600D15087;
+					};
+					D10FD17E1D9C15E700D15087 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 324K7JL2HS;
+						TestTargetID = D10FD15F1D9C15E600D15087;
+					};
+				};
+			};
+			buildConfigurationList = D10FD15B1D9C15E600D15087 /* Build configuration list for PBXProject "touchSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10FD1571D9C15E600D15087;
+			productRefGroup = D10FD1611D9C15E600D15087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10FD15F1D9C15E600D15087 /* touchSound */,
+				D10FD1731D9C15E700D15087 /* touchSoundTests */,
+				D10FD17E1D9C15E700D15087 /* touchSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10FD15E1D9C15E600D15087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C2E5251D9D692E00A0AA37 /* laugh.wav in Resources */,
+				D119CA831D9CB89D0077C44D /* song5.wav in Resources */,
+				D1C2E5231D9D66C700A0AA37 /* song4.wav in Resources */,
+				D119CA851D9CB8A20077C44D /* song1.wav in Resources */,
+				D1C2E5211D9D66AE00A0AA37 /* RickRoll.wav in Resources */,
+				D119CA7F1D9CB5CF0077C44D /* song3.wav in Resources */,
+				D1C2E5271D9D69D100A0AA37 /* explosion.wav in Resources */,
+				D10FD16E1D9C15E600D15087 /* LaunchScreen.storyboard in Resources */,
+				D1C2E5291D9D6A8500A0AA37 /* game.wav in Resources */,
+				D10FD16B1D9C15E600D15087 /* Assets.xcassets in Resources */,
+				D10FD1691D9C15E600D15087 /* Main.storyboard in Resources */,
+				D1C2E52B1D9D6BA600A0AA37 /* tada.wav in Resources */,
+				D119CA7D1D9CB3A10077C44D /* song2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD1721D9C15E700D15087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD17D1D9C15E700D15087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6E44547BDE58545235974D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5966CB2DF3FE4D349DB50505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touchSound/Pods-touchSound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4FC060C115039EC054F8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB7622D5422ADBD4CF00F3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touchSoundTests/Pods-touchSoundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6167AEB75532E3B56CD79368 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touchSound/Pods-touchSound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07D9D435ACBECC347175E16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touchSoundUITests/Pods-touchSoundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C882CA3FC1DB144E82199C0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touchSoundTests/Pods-touchSoundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD50374DFD6661D412E78A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10FD15C1D9C15E600D15087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FD1661D9C15E600D15087 /* ViewController.swift in Sources */,
+				D10FD1641D9C15E600D15087 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD1701D9C15E700D15087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FD1791D9C15E700D15087 /* touchSoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FD17B1D9C15E700D15087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FD1841D9C15E700D15087 /* touchSoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10FD1761D9C15E700D15087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10FD15F1D9C15E600D15087 /* touchSound */;
+			targetProxy = D10FD1751D9C15E700D15087 /* PBXContainerItemProxy */;
+		};
+		D10FD1811D9C15E700D15087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10FD15F1D9C15E600D15087 /* touchSound */;
+			targetProxy = D10FD1801D9C15E700D15087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D10FD1671D9C15E600D15087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10FD1681D9C15E600D15087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10FD16C1D9C15E600D15087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10FD16D1D9C15E600D15087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10FD1861D9C15E700D15087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10FD1871D9C15E700D15087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10FD1891D9C15E700D15087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA63E8EAA21DD9A2DA2F332 /* Pods-touchSound.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = touchSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10FD18A1D9C15E700D15087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325AA0BB0946652D5B103F31 /* Pods-touchSound.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = touchSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D10FD18C1D9C15E700D15087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AE92EE8C382368C9A1C9CC /* Pods-touchSoundTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = touchSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/touchSound.app/touchSound";
+			};
+			name = Debug;
+		};
+		D10FD18D1D9C15E700D15087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7499AC8834187EDE0F6A98 /* Pods-touchSoundTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = touchSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/touchSound.app/touchSound";
+			};
+			name = Release;
+		};
+		D10FD18F1D9C15E700D15087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD9ED335CC695C79CB3FBB8 /* Pods-touchSoundUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = touchSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = touchSound;
+			};
+			name = Debug;
+		};
+		D10FD1901D9C15E700D15087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A498FAA0DA95F92C2F1011F /* Pods-touchSoundUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = touchSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndreaRitch.touchSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = touchSound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10FD15B1D9C15E600D15087 /* Build configuration list for PBXProject "touchSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FD1861D9C15E700D15087 /* Debug */,
+				D10FD1871D9C15E700D15087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10FD1881D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FD1891D9C15E700D15087 /* Debug */,
+				D10FD18A1D9C15E700D15087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10FD18B1D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FD18C1D9C15E700D15087 /* Debug */,
+				D10FD18D1D9C15E700D15087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10FD18E1D9C15E700D15087 /* Build configuration list for PBXNativeTarget "touchSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FD18F1D9C15E700D15087 /* Debug */,
+				D10FD1901D9C15E700D15087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10FD1581D9C15E600D15087 /* Project object */;
+}
