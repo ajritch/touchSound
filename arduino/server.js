@@ -30,7 +30,7 @@ io.sockets.on('connection', function(socket) {
 	board.on("ready", function() {
 		console.log('woooo')
 
-		var threshold = 32
+		var threshold = 60
 		var sensor0 = new five.Sensor({pin: "A0", threshold: threshold});
 		var sensor1 = new five.Sensor({pin: "A1", threshold: threshold});
 		var sensor2 = new five.Sensor({pin: "A2", threshold: threshold});

@@ -14,33 +14,34 @@ import SocketIO
 class ViewController: UIViewController {
     
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var imageView: UIImageView!
     
     //define socket
     let socket = SocketIOClient(socketURL: NSURL(string: "http://Annie-MacBook.local:7000")!)
     
     //setup all the background URLS
     var backgroundAudioURLS = [
-        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("song1", ofType: "wav")!),
-        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("song2", ofType: "wav")!),
-        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("song3", ofType: "wav")!),
-        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("song4", ofType: "wav")!),
-        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("song5", ofType: "wav")!)]
+        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/song1", ofType: "wav")!),
+        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/song2", ofType: "wav")!),
+        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/song3", ofType: "wav")!),
+        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/song4", ofType: "wav")!),
+        NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/song5", ofType: "wav")!)]
     var currSong = 1 //currently playing song
     
     var backgroundAudioPlayer = AVAudioPlayer()
     
     //set up all the urls
     //sensor 0 has no player -- it changes songs
-    var sensor1URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("laugh", ofType: "wav")!)
+    var sensor1URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/laugh", ofType: "wav")!)
     var sensor1Player = AVAudioPlayer()
-    var sensor2URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("tada", ofType: "wav")!)
+    var sensor2URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/tada", ofType: "wav")!)
     var sensor2Player = AVAudioPlayer()
     //SENSOR 3 SPECIAL :D
-    var rickRollURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("RickRoll", ofType: "wav")!)
+    var rickRollURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/RickRoll", ofType: "wav")!)
     var rickRollPlayer = AVAudioPlayer()
-    var sensor4URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("explosion", ofType: "wav")!)
+    var sensor4URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/explosion", ofType: "wav")!)
     var sensor4Player = AVAudioPlayer()
-    var sensor5URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("game", ofType: "wav")!)
+    var sensor5URL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Audio/game", ofType: "wav")!)
     var sensor5Player = AVAudioPlayer()
     
     
@@ -48,8 +49,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        imageView.image = UIImage(named: "P1140252")
         
         playButton.setTitle("Pause", forState: UIControlState.Normal)
+        
+        //load the Jason goat file image
+        
         
         do {
             backgroundAudioPlayer = try AVAudioPlayer(contentsOfURL: backgroundAudioURLS[0])
@@ -178,13 +183,15 @@ class ViewController: UIViewController {
         down2 = !down2
     }
     
-    //ADD RICK ASTLEY
+    //USE RICK ASTLEY and change photo
     func playSensor3() {
         if down3 {
             if rickRollPlayer.playing {
+                imageView.image = UIImage(named: "P1140252")
                 rickRollPlayer.stop()
                 backgroundAudioPlayer.play()
             } else {
+                imageView.image = UIImage(named: "P1120021")
                 rickRollPlayer.play()
                 backgroundAudioPlayer.stop()
             }

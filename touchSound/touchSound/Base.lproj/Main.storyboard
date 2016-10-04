@@ -25,21 +25,30 @@
                                     <action selector="playAudioButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aIP-fE-fYB"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OvO-yh-ugv">
+                                <rect key="frame" x="0.0" y="66" width="600" height="534"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="C0T-Ly-St1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Frb-Dp-WN8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="C0T-Ly-St1" secondAttribute="trailing" id="ZTJ-T8-1dV"/>
+                            <constraint firstItem="OvO-yh-ugv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="a1E-lc-B0M"/>
                             <constraint firstItem="C0T-Ly-St1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="aNS-N2-iaV"/>
                             <constraint firstItem="C0T-Ly-St1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="duH-oT-GYv"/>
+                            <constraint firstItem="OvO-yh-ugv" firstAttribute="top" secondItem="C0T-Ly-St1" secondAttribute="bottom" constant="8" symbolic="YES" id="og2-Pl-ET4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OvO-yh-ugv" secondAttribute="trailing" constant="-20" id="v92-NM-v3H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OvO-yh-ugv" secondAttribute="bottom" id="zMH-mm-X67"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="OvO-yh-ugv" id="3mW-pm-pTq"/>
                         <outlet property="playButton" destination="C0T-Ly-St1" id="6ns-NP-mGl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="199"/>
         </scene>
     </scenes>
 </document>

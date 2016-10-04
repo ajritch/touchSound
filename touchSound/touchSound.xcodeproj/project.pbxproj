@@ -17,16 +17,7 @@
 		D10FD1791D9C15E700D15087 /* touchSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1781D9C15E700D15087 /* touchSoundTests.swift */; };
 		D10FD1841D9C15E700D15087 /* touchSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1831D9C15E700D15087 /* touchSoundUITests.swift */; };
 		D10FD1951D9C184800D15087 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10FD1941D9C184800D15087 /* AVFoundation.framework */; };
-		D119CA7D1D9CB3A10077C44D /* song2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA7C1D9CB3A10077C44D /* song2.wav */; };
-		D119CA7F1D9CB5CF0077C44D /* song3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA7E1D9CB5CF0077C44D /* song3.wav */; };
-		D119CA831D9CB89D0077C44D /* song5.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA821D9CB89D0077C44D /* song5.wav */; };
-		D119CA851D9CB8A20077C44D /* song1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D119CA841D9CB8A20077C44D /* song1.wav */; };
-		D1C2E5211D9D66AE00A0AA37 /* RickRoll.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */; };
-		D1C2E5231D9D66C700A0AA37 /* song4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5221D9D66C700A0AA37 /* song4.wav */; };
-		D1C2E5251D9D692E00A0AA37 /* laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5241D9D692E00A0AA37 /* laugh.wav */; };
-		D1C2E5271D9D69D100A0AA37 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5261D9D69D100A0AA37 /* explosion.wav */; };
-		D1C2E5291D9D6A8500A0AA37 /* game.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E5281D9D6A8500A0AA37 /* game.wav */; };
-		D1C2E52B1D9D6BA600A0AA37 /* tada.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1C2E52A1D9D6BA600A0AA37 /* tada.wav */; };
+		D1A34EED1D9DDB420019E132 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = D1A34EEC1D9DDB420019E132 /* Audio */; };
 		F860A5B3189F62F8CCDCDE90 /* Pods_touchSoundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D61F2824B7FDFDF44812DD1 /* Pods_touchSoundTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,16 +62,7 @@
 		D10FD1831D9C15E700D15087 /* touchSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchSoundUITests.swift; sourceTree = "<group>"; };
 		D10FD1851D9C15E700D15087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10FD1941D9C184800D15087 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D119CA7C1D9CB3A10077C44D /* song2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song2.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song2.wav"; sourceTree = "<group>"; };
-		D119CA7E1D9CB5CF0077C44D /* song3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song3.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song3.wav"; sourceTree = "<group>"; };
-		D119CA821D9CB89D0077C44D /* song5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song5.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song5.wav"; sourceTree = "<group>"; };
-		D119CA841D9CB8A20077C44D /* song1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song1.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song1.wav"; sourceTree = "<group>"; };
-		D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = RickRoll.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Rick Astley/Greatest Hits/RickRoll.wav"; sourceTree = "<group>"; };
-		D1C2E5221D9D66C700A0AA37 /* song4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = song4.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/song4.wav"; sourceTree = "<group>"; };
-		D1C2E5241D9D692E00A0AA37 /* laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laugh.wav; path = ../../../../../Downloads/laugh.wav; sourceTree = "<group>"; };
-		D1C2E5261D9D69D100A0AA37 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/explosion.wav"; sourceTree = "<group>"; };
-		D1C2E5281D9D6A8500A0AA37 /* game.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = game.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Bas Lamerichs - lu6np9@kpnmail.nl/-/game.wav"; sourceTree = "<group>"; };
-		D1C2E52A1D9D6BA600A0AA37 /* tada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tada.wav; path = "../../../../../Music/iTunes/iTunes Media/Music/Nathan Johnson/Nathan Johnson's Album/tada.wav"; sourceTree = "<group>"; };
+		D1A34EEC1D9DDB420019E132 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +143,7 @@
 		D10FD1621D9C15E600D15087 /* touchSound */ = {
 			isa = PBXGroup;
 			children = (
-				D10FD1911D9C178700D15087 /* Audio */,
+				D1A34EEC1D9DDB420019E132 /* Audio */,
 				D10FD1631D9C15E600D15087 /* AppDelegate.swift */,
 				D10FD1651D9C15E600D15087 /* ViewController.swift */,
 				D10FD1671D9C15E600D15087 /* Main.storyboard */,
@@ -188,23 +170,6 @@
 				D10FD1851D9C15E700D15087 /* Info.plist */,
 			);
 			path = touchSoundUITests;
-			sourceTree = "<group>";
-		};
-		D10FD1911D9C178700D15087 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				D119CA7C1D9CB3A10077C44D /* song2.wav */,
-				D1C2E5201D9D66AE00A0AA37 /* RickRoll.wav */,
-				D1C2E5241D9D692E00A0AA37 /* laugh.wav */,
-				D1C2E52A1D9D6BA600A0AA37 /* tada.wav */,
-				D1C2E5261D9D69D100A0AA37 /* explosion.wav */,
-				D1C2E5281D9D6A8500A0AA37 /* game.wav */,
-				D119CA841D9CB8A20077C44D /* song1.wav */,
-				D1C2E5221D9D66C700A0AA37 /* song4.wav */,
-				D119CA821D9CB89D0077C44D /* song5.wav */,
-				D119CA7E1D9CB5CF0077C44D /* song3.wav */,
-			);
-			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,19 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C2E5251D9D692E00A0AA37 /* laugh.wav in Resources */,
-				D119CA831D9CB89D0077C44D /* song5.wav in Resources */,
-				D1C2E5231D9D66C700A0AA37 /* song4.wav in Resources */,
-				D119CA851D9CB8A20077C44D /* song1.wav in Resources */,
-				D1C2E5211D9D66AE00A0AA37 /* RickRoll.wav in Resources */,
-				D119CA7F1D9CB5CF0077C44D /* song3.wav in Resources */,
-				D1C2E5271D9D69D100A0AA37 /* explosion.wav in Resources */,
 				D10FD16E1D9C15E600D15087 /* LaunchScreen.storyboard in Resources */,
-				D1C2E5291D9D6A8500A0AA37 /* game.wav in Resources */,
 				D10FD16B1D9C15E600D15087 /* Assets.xcassets in Resources */,
 				D10FD1691D9C15E600D15087 /* Main.storyboard in Resources */,
-				D1C2E52B1D9D6BA600A0AA37 /* tada.wav in Resources */,
-				D119CA7D1D9CB3A10077C44D /* song2.wav in Resources */,
+				D1A34EED1D9DDB420019E132 /* Audio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
